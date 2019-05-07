@@ -34,11 +34,22 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+ notredame {
+  background-color: #20487C;
+  border: 2px solid white;
+  background-size: 100% auto;
+  background-image:"notredame.png";
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
-
-ul.posts li {
-    list-style: none;
-}
+notredame:hover {
+  background-color: white;
+  border: 2px solid #20487C;
+  background-size: 100% auto;
+  background-image: "notredame.png";
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;

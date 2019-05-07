@@ -77,7 +77,7 @@ footer {
 #portland {
   background-color: #1E1656;
   border: 2px solid white;
-  background-image: url('pilots.png');
+  background-image: url('site.png');
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
@@ -86,7 +86,7 @@ footer {
 #portland:hover {
   background-color: white;
   border: 2px solid #1E1656;
-  background-image: url('pilots.png');
+  background-image: url('site.png');
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;

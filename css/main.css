@@ -37,7 +37,7 @@ footer {
  #notredame {
   background-color: #20487C;
   border: 2px solid white;
-  background-image:"notredame.png";
+  background-image: url('notredame.png');
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
@@ -46,7 +46,7 @@ footer {
 #notredame:hover {
   background-color: white;
   border: 2px solid #20487C;
-  background-image: "notredame.png";
+  background-image: url('notredame.png');
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;

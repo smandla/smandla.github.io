@@ -42,6 +42,7 @@ footer {
 }
 
  #notredame {
+  background-color: white;
   background-image: url('notre_dame.png');
   -webkit-transition: background-image 0.5s ease-out;
   -moz-transition: background-image 0.5s ease-out;
@@ -49,6 +50,7 @@ footer {
   transition: background-image 0.5s ease-out;
 }
 #notredame:hover {
+  background-color: white;
   background-image: url('ND.png');
   -webkit-transition: background-image 0.5s ease-out;
   -moz-transition: background-image 0.5s ease-out;

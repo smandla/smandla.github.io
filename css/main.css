@@ -44,10 +44,10 @@ footer {
  #notredame {
   background-color: white;
   background-image: url('notre_dame.png');
-  -webkit-transition: background-image 0.5s ease-out;
-  -moz-transition: background-image 0.5s ease-out;
-  -o-transition: background-image 0.5s ease-out;
-  transition: background-image 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 #notredame:hover {
   background-color: white;
@@ -70,7 +70,7 @@ footer {
 #portland:hover {
   background-color: white;
   border: 2px solid #1E1656;
-  background-image: url('site.png');
+  background-image: url('UP.png');
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;

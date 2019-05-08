@@ -42,19 +42,23 @@ footer {
 }
 
  #notredame {
-  background: url('notre_dame.png');
-  transition: background-color 0.5s ease-out;
+     width: 200px;
+     height: 200px;
+  background-image: url('notre_dame.png');
 }
 #notredame:hover {
-  background: url('ND.png');
-  transition: background-image 0.5s ease-out;
+    width: 200px;
+    height: 200px;
+  background-image: url('ND.png');
 }
 
 #portland {
-  background: url('site.png');
-  transition: background-image 0.5s ease-out;
+    width: 200px;
+    height: 200px;
+  background-image: url('site.png');
 }
 #portland:hover {
+    width: 200px;
+    height: 200px;
   background: url('UP.png');
-  transition: background-color 0.5s ease-out;
 }

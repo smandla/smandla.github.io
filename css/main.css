@@ -62,3 +62,13 @@ footer {
     height: 200px;
   background: url('UP.png');
 }
+
+#parallax {
+    background-image: url('profile.jpg');
+    background-color: #340909;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}

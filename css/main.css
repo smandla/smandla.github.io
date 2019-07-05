@@ -65,10 +65,9 @@ footer {
 
 #parallax {
     background-image: url('profile.jpg');
-    background-color: #340909;
     min-height: 500px;
     background-attachment: fixed;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 50% 100%;
+    background-size: cover;
 }

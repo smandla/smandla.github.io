@@ -1,118 +1,110 @@
+@import url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
+
 body {
-    background-color: #000000;
-    margin: 60px auto;
-    width: 70%;
+  background-color: #000000;
+  margin: 60px auto;
+  width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav ul,
+footer ul {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: #EFF7FF;
+  text-decoration: none;
+  color: #eff7ff;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 3em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
 }
 h2 {
-    font-size: 2em;
-    color: #EFF7FF;
+  font-size: 2em;
+  color: #eff7ff;
 }
 h5 {
-    font-size: 1em;
+  font-size: 1em;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #EFF7FF;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #eff7ff;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
 }
 
- #notredame {
-     width: 200px;
-     height: 200px;
-  background-image: url('notre_dame.png');
+#notredame {
+  width: 200px;
+  height: 200px;
+  background-image: url("notre_dame.png");
 }
 #notredame:hover {
-    width: 200px;
-    height: 200px;
-  background-image: url('ND.png');
+  width: 200px;
+  height: 200px;
+  background-image: url("ND.png");
 }
 
 #portland {
-    width: 200px;
-    height: 200px;
-  background-image: url('site.png');
+  width: 200px;
+  height: 200px;
+  background-image: url("site.png");
 }
 #portland:hover {
-    width: 200px;
-    height: 200px;
-  background: url('UP.png');
+  width: 200px;
+  height: 200px;
+  background: url("UP.png");
 }
 
 #parallax {
-    background-image: url('profile.jpg');
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("profile.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 200vh;
-    overflow-x: hidden;
-    font-family: Montserrat, sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+  overflow-x: hidden;
+  font-family: Montserrat, sans-serif;
 }
 
 #background {
-    background-image: url(https://images.unsplash.com/photo-1536264911542-668b0180d5a1?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a9a32743f06349efc39aeae90f047e9f);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-clip: text;
-    height: 200vh;
-    font-weight: bold;
-    font-size: 50rem;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    overflow: hidden;
-    
-    #background:before {
-        content: '';
-        background-image: inherit;
-        background-size: cover;
-        background-position: 50% 50%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -2;
-    }
+  background-image: url(https://images.unsplash.com/photo-1536264911542-668b0180d5a1?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a9a32743f06349efc39aeae90f047e9f);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-clip: text;
+  height: 200vh;
+  font-weight: bold;
+  font-size: 50rem;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
 }
 
 h4 {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    color: #fefefe;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #fefefe;
 }
